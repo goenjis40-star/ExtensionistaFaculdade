@@ -15,7 +15,18 @@ Projeto desenvolvido para a ACAMARTI (Associação dos Catadores de Materiais Re
 
 ## Instalação
 
-```bash
-git clone <repositorio>
-cd "EcoMetric 2.0"
-pip install -r requirements.txt
+## Executável pronto (Windows)
+
+Se você não quer compilar o projeto, baixe o executável já pronto na aba **Releases** deste repositório:
+
+👉 [Baixar EcoMetric.exe](https://github.com/goenjis40-star/ExtensionistaFaculdade/releases)
+
+Basta extrair o arquivo `.zip` e executar `EcoMetric.exe`.
+
+## Build automático (para desenvolvedores)
+
+Se preferir compilar você mesmo:
+
+1. Dê duplo clique no arquivo `Gerar o Executavel.bat` (Windows)
+2. Aguarde a instalação das dependências e a geração do executável
+3. O `.exe` estará em `dist/EcoMetric/EcoMetric.exe`
